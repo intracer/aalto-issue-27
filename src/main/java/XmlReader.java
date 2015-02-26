@@ -53,20 +53,14 @@ public class XmlReader {
                 ub128found = true;
             }
         }
-        if (ub128found) {
-            System.out.println("Unsigned byte 128 found");
-        } else {
-            System.out.println("No unsigned byte 128 found");
-        }
+
+        System.out.println("Unsigned byte " + (ub128found ? "found" : "not found"));
     }
 
     private static void checkChar128(String str) {
         int pos = str.indexOf(128);
         boolean char128found = pos != -1;
-        if (char128found) {
-            System.out.println("Found char 128 at position: " + pos);
-        } else {
-            System.out.println("Char 128 not found");
-        }
+
+        System.out.println("Char 128 " + (char128found ? "found at position: " + pos : "not found"));
     }
 }
