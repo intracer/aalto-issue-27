@@ -12,7 +12,7 @@
         <dependency>
             <groupId>com.fasterxml</groupId>
             <artifactId>aalto-xml</artifactId>
-            <version>0.9.10</version>
+            <version>0.9.11</version>
         </dependency>
     </dependencies>
 
